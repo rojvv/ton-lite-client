@@ -9,6 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -fr dist && tsc --declaration",
+    "prepare": "npm run build",
     "release": "yarn build && yarn npm publish"
   },
   "devDependencies": {
