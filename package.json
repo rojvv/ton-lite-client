@@ -9,8 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -fr dist && tsc --declaration",
-    "prepare": "npm run build",
-    "release": "yarn build && yarn npm publish"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@ton/core": "^0.56.0",
